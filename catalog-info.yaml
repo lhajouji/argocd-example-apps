@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argo-example-apps
+  description: Find where your juice comes from
+spec:
+  type: website
+  lifecycle: production
+  owner: tracking-team 
